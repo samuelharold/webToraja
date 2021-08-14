@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+body   {
+       padding: 0;
+       margin: 0;
+       font-family: Arial, Helvetica, sans-serif ;
+       font-size: 18px;
+       color: seashell;
+       background-color: black;
+       letter-spacing: 2px;
+       font-style: normal;
+       box-sizing: border-box;
+}
+
+h1 {
+       text-transform: uppercase;
+       color: #143f85;
+       text-align: center;
+}
+
+h2,
+h3,
+h4 {
+       margin: 0;
+       padding: 10px;
+}
+
+p {
+       line-height: 1.5em;
+       text-indent: 2em;
+       text-align: justify;
+       word-spacing: 0.10em;
+       font-family: Lato, "Open Sans", sans-serif;
+}
+
+.header-container {
+       display: block;
+       justify-content: space-between;
+       align-items: center;
+       min-height: 30px;
+       width: 100%;
+       border-bottom: 1px solid rgb(116, 113, 111);
+       position: sticky;
+       background-color: black;
+       top: 0;
+       z-index: 1;       
+}
+
+nav {
+       display: flex;
+       justify-content: space-between;
+}
+
+ul {
+       list-style: none;
+}
+
+li a:hover {
+       text-decoration: underline;
+}
+
+a {
+   text-decoration: none;
+   color: seashell;
+   font-size: 20px;   
+}
+
+.divStyle {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+
+.navStyle {
+       background-color: #233047;
+       display: flex;
+}
+
+.inlineBlock > li {
+       display: inline-block;
+       align-items: center;
+       padding: 10px 15px;
+       transition: all 0.9s ease;
+       position: relative;
+}
+
+#showTheList {
+       color: seashell;
+       border: 0.5px solid;
+       border-radius: 5px;
+       background-color: #10223f;
+}
+
+#showTheList:hover {
+       cursor: pointer;
+}
+
+#dropDown {
+       display: none;
+       position: absolute;
+       width: auto;
+       z-index: 1;
+       text-align: center;
+       left: 0;
+       top: 100%;     
+       background: rgba(8, 6, 54, 0.9); 
+       padding: 10px 15px;
+}
+
+#dropDown li {
+       padding: 10px 15px;
+}
+
+#dropDown.active {
+       display: block;      
+}
+
+#dropDown li:hover {
+       background-color:  rgb(25, 22, 82);
+       z-index: 1;
+}
+
+
+.main-container {
+       opacity: 0.9;
+       display: flex;
+       justify-content: center;
+       overflow: auto;
+       padding-top: 40px;
+       margin: auto;
+       
+}
+
+.div-container {
+       display: inline-block;
+       justify-content: space-around;
+       align-items: center;
+       padding-left: 20px;
+       padding-right: 10px;
+       
+}
+
+.content-distance {
+       padding-bottom: 20px;
+}
+
+aside {
+       background-color: rgb(88, 81, 71);
+       height: min-content;
+       margin: 15px 10px;
+       border-radius: 25px 2px;
+
+}
+
+.radius {
+
+}
+
+.contentLeft, td {
+       margin: 5px;
+}
+
+#contentId {
+       padding-left: 0;
+       color: rgb(29, 27, 27);
+}
+
+table {
+       display: flex;
+       justify-content: space-around;
+}
+
+tr {
+       display: flex;
+       justify-content: flex-start;
+       font-size: medium;
+}
+
+tr th{
+       text-align: left;
+       margin: 5px;
+       color:rgb(29, 27, 27);
+}
+
+footer {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       border-top: 1px solid seashell;
+       background-color: #0a1931;
+}
+
+.fontStyle {
+       font-family: "Cormorand Garamond";
+}
+
+span {
+       font-style: italic;
+}
+
+@media screen and (max-width: 1000px) {
+       #PaBarreAllo
+       img {
+              height: 200px;
+       }
+}
+
+@media screen and (max-width: 1000px) {
+       #PaManukLondong
+       img {
+            height: 200px  
+       }
+}
+
+@media screen and (max-width: 1000px) {
+       #PaBuluLondong
+       img {
+              width: 250px;
+       }
+}
+
+@media screen and (max-width: 1000px) {
+       p {
+              font-size: 18px;
+       }
+}
+
+@media screen and (max-width: 1000px) {
+       li a {
+              font-size: 20px;
+       }
+}
+
+@media screen and (max-width: 1000px) {
+       .main-container {
+              flex-direction: column;
+       }
+}
+
+
+
+
+
+
+
+
